@@ -84,6 +84,8 @@ foodElement.innerHTML = `<ul>${favoriteFoods.map(food => `<li>${food}</li>`).joi
 // Declare and instantiate a variable to hold another single favorite food item.
 const additionalFavoriteFood = 'Pepper soup';
 
+console.log("Favorite Foods:", favoriteFoods);
+
 console.log("Additional Favorite Food:", additionalFavoriteFood);
 
 // Add the value stored in the new variable to your favorite food array.
@@ -92,16 +94,16 @@ favoriteFoods.push(additionalFavoriteFood);
 console.log("Updated Favorite Foods:", favoriteFoods);
 
 // Append the new array values onto the displayed content of the HTML element with the id of "food".
-foodElement.innerHTML += `<br>${favoriteFoods.join('<br>')}`;
+foodElement.innerHTML += `<br><ul>${favoriteFoods.map(food => `<li>${food}</li>`).join('')}</ul>`;
 
 // Remove the first element in the favorite food array.
 favoriteFoods.shift();
 
 // Again, append the array output showing the modified array, using a line break as shown in step 5.5.
-foodElement.innerHTML += `<br>${favoriteFoods.join('<br>')}`;
+foodElement.innerHTML += `<br><ul>${favoriteFoods.map(food => `<li>${food}</li>`).join('')}</ul>`;
 
 // Remove the last element in the favorite food array.
 favoriteFoods.pop();
 
 // Append the array output with this final modified favorite foods array. Hint: Step 5.5.
-foodElement.innerHTML += `<br>${favoriteFoods.join('<br>')}`;
+foodElement.innerHTML += `<br><ul>${favoriteFoods.map(food => `<li>${food}</li>`).join('')}</ul>`;

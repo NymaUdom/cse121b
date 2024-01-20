@@ -1,0 +1,37 @@
+/* styles/w02-task.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(24, 24, 36);
+}
+
+.image-container {
+    margin: 20px 0;
+}
+
+.image-container picture img {
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #777;
+}
+
+#name,
+#food,
+#year {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+
+#year {
+    width: 100px;
+}
