@@ -72,7 +72,7 @@ imageElement.setAttribute('alt', `Profile image of ${fullName}`);
 /* Step 5 - Array */
 
 // Declare an array variable to hold your favorite foods.
-const favoriteFoods = ['Eguzi', 'Vegatable soup', 'Ekpang', 'Jollof rice', ' Plantain'];
+const favoriteFoods = ['Eguzi', 'Vegetable soup', 'Ekpang', 'Jollof rice', ' Plantain'];
 
 console.log("Favorite Foods:", favoriteFoods);
 
