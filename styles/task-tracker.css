@@ -1,0 +1,56 @@
+/* Add this to your CSS file */
+.taskList {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+}
+
+.completed {
+    background-color: #f0f0f0; /* Change the background color for completed tasks */
+}
+
+.deleteBtn {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.completeBtn {
+    background-color: rgb(60, 188, 179);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.intro-container {
+    background-color: #d1caca;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.content-container {
+    background-color: #295A89;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.intro-container h1 {
+    margin: 0;
+    color-scheme: #fff;
+}
